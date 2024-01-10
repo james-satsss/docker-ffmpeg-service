@@ -34,4 +34,10 @@ exports.types = {
             '-b:a 128k',
         ],
     },
+    ogg: {
+        extension: 'ogg',
+        outputOptions: [
+            '-codec:a libopus',
+        ],
+    },
 };
